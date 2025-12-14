@@ -1,6 +1,11 @@
+import "./Header.css";
+
 const Header = () => {
-    return (
-        <h1>แอพของฉัน</h1>
-    );
+  return (
+    <nav>
+      <h1>My Application</h1>
+      <button>Light/Dark</button>
+    </nav>
+  );
 };
 export default Header;

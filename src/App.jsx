@@ -1,13 +1,16 @@
 import { useState } from "react";
 import Header from "./components/Header";
 import PersonList from "./components/PersonList";
+import "./App.css"
 
 const App = () => {
   return (
-    <>
+    <div className="App">
       <Header />
-      <PersonList/>
-    </>
+      <main>
+        <PersonList />
+      </main>
+    </div>
   );
 };
 
